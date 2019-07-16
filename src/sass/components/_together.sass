@@ -1,0 +1,49 @@
+.together
+	position: relative
+	padding: 125px 0
+	&:before
+		position: absolute
+		content: ''
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		transform-origin: center
+		transform: skewY(-3deg)
+		background-image: linear-gradient(224deg, #EDF6FF 0%, #E2EFFF 100%)
+	&__inner
+		position: relative
+		z-index: 2
+	&__title
+		margin-bottom: 45px
+	&__row
+		margin: 0 -20px
+		flex-wrap: wrap
+		display: flex
+	&__col
+		position: relative
+		padding: 0 20px
+		+fs(33.3%)
+		&:not(:last-child)
+			&:before
+				position: absolute
+				content: ''
+				top: 0
+				right: 0
+				height: 100%
+				width: 1px
+				background-color: rgba(#CDDDFD, .6)
+	&__icon
+		margin-bottom: 13px
+		+circle(128)
+		box-shadow: 0 20px 40px 0 rgba(107,154,212,0.10)
+		background-color: #fff
+		align-items: center
+		justify-content: center
+		display: inline-flex
+		img
+			max-width: 90%
+	&__numb
+		+f(30px,700,1.84)
+		color: #000
+		text-transform: uppercase

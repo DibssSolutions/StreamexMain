@@ -1,0 +1,31 @@
+.btn
+	padding: 12px 40px
+	+fr
+	+f(16px,700,2.5)
+	color: #fff
+	border-radius: 5px
+	text-transform: uppercase
+	display: inline-block
+	background-color: #4C68EF
+	transition: background-color .3s, box-shadow .3s, border-color .3s, color .3s
+	+hover
+		background-color: darken(#4C68EF, 15%)
+	&_sm
+		padding: 11px 34px
+		line-height: 1.72
+		font-size: 14px
+		&.btn_bord
+			padding-top: 9px
+			padding-bottom: 9px
+	&_bord
+		color: #4C68EF
+		background-color: transparent
+		border: 2px solid #4C68EF
+		+hover
+			color: #fff
+			border-color: darken(#4C68EF, 15%)
+			background-color: darken(#4C68EF, 15%)
+	&_shad
+		box-shadow: 0 20px 40px 0 rgba(76,104,239,0.35)
+		+hover
+			box-shadow: 0 10px 20px 0 rgba(76,104,239,0.35)

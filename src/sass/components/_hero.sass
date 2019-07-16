@@ -1,0 +1,59 @@
+.hero
+	position: relative
+	padding: 103px 0
+	min-height: 913px
+	overflow: hidden
+	background-image: linear-gradient(224deg, #EDF6FF 0%, #E2EFFF 100%)
+	&:before
+		position: absolute
+		content: ''
+		z-index: 2
+		bottom: 0
+		left: 50%
+		transform-origin: right bottom
+		transform: translateX(-50%) skewY(-3deg)
+		height: 122px
+		width: 100vw
+		background-color: #F2F8FF
+	.title-lg
+		margin-bottom: 13px
+	&__inner
+	&__wrap
+		position: relative
+		width: 100%
+		display: flex
+	&__content
+		padding-top: 110px
+		max-width: 503px
+		p
+			&:not(:first-child)
+				margin-top: 25px
+			&:not(:first-child)
+				margin-bottom: 28px
+	&__img
+		position: absolute
+		top: 0
+		right: 0
+		margin-right: -175px
+		svg
+			margin-top: 115px
+			max-width: 776px
+			width: auto
+			height: auto
+			display: block
+	[data-anim="from-bottom"]
+		position: relative
+// .unit
+// 	&__wrap
+// 	&__head
+// 	&__logo
+// 		img
+// 	&__name
+// 	&__descr
+// 	&__cost
+// 	&__numb
+// 	&__difference
+// 	&__foot
+// 	&__tag
+// 	&__date
+// 	&__chart

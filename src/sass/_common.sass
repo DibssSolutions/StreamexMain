@@ -1,4 +1,69 @@
 body
-	background: #FFF
-	line-height: 1.4
+	+fr
+	+f(16px,400,2.0625)
+	color: #627791
+	background-color: #F2F8FF
 
+.title-lg
+	color: #000
+	+f(84px,700,1.07)
+.title-md
+	color: #000
+	+f(50px,700,1.2)
+.title
+	color: #000
+	+f(36px,700,1.8)
+
+.description
+	+f(18px,500,1.778)
+
+.color-blue
+	color: #3852CE
+
+.text-center
+	text-align: center
+
+.section
+	padding: 178px 0
+	&_about
+		padding-bottom: 0
+	&__wrap
+		max-width: 488px
+	&__row
+		margin: 0 -10px
+		display: flex
+		&:not(:first-child)
+			margin-top: 103px
+	&__img
+		padding: 0 10px
+		width: 50%
+		img,
+		svg
+			display: block
+			max-width: 100%
+		&_shad
+			img
+				border-radius: 5px
+				box-shadow: 0 20px 40px 0 rgba(107,154,212,0.10)
+		&_fixw
+			img
+				max-width: 960px
+		&_center
+			justify-content: center
+			display: flex
+	&__content
+		padding: 38px 10px 0
+		width: 50%
+		&_pt0
+			padding-top: 0
+		p
+			&:not(:first-child)
+				margin-top: 23px
+			&:not(:last-child)
+				margin-bottom: 29px
+		.description + .btn
+			margin-top: 29px
+	.title
+		margin-bottom: 11px
+	.description
+		margin-bottom: 15px
