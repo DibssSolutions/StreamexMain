@@ -1,0 +1,18 @@
+<svg width="126" height="126" viewBox="0 0 126 126" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Oval
+    </title>
+    <defs>
+        <radialGradient cx="76.184%" cy="83.145%" fx="76.184%" fy="83.145%" r="91.305%" id="a">
+            <stop stop-color="#E4F2FF" offset="0%"/>
+            <stop stop-color="#E1EFFF" offset="4.527%"/>
+            <stop stop-color="#C7D7FB" offset="52.8%"/>
+            <stop stop-color="#BDCEFA" offset="81.45%"/>
+            <stop stop-color="#C4D3FB" offset="85.52%"/>
+            <stop stop-color="#D8E2FC" offset="91.45%"/>
+            <stop stop-color="#F7F9FE" offset="98.5%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <circle cx="242" cy="901" r="63" transform="translate(-179 -838)" fill="url(#a)" fill-rule="nonzero"/>
+</svg>

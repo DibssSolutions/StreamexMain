@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="126px" viewBox="0 0 126 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="76.1835962%" cy="83.1454259%" fx="76.1835962%" fy="83.1454259%" r="91.3051262%" id="radialGradient-1">
+            <stop stop-color="#E4F2FF" offset="0%"></stop>
+            <stop stop-color="#E1EFFF" offset="4.527184%"></stop>
+            <stop stop-color="#C7D7FB" offset="52.8%"></stop>
+            <stop stop-color="#BDCEFA" offset="81.45%"></stop>
+            <stop stop-color="#C4D3FB" offset="85.52%"></stop>
+            <stop stop-color="#D8E2FC" offset="91.45%"></stop>
+            <stop stop-color="#F7F9FE" offset="98.5%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="InProgress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StreamexMain" transform="translate(-179.000000, -838.000000)" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <circle id="Oval" cx="242" cy="901" r="63"></circle>
+        </g>
+    </g>
+</svg>

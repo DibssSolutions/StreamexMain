@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="300px" viewBox="0 0 154 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Pattern02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M219,75.5470054 L296.779455,120.452995 C309.155498,127.598306 316.779455,140.803387 316.779455,155.094011 L316.779455,244.905989 C316.779455,259.196613 309.155498,272.401694 296.779455,279.547005 L219,324.452995 C206.623957,331.598306 191.376043,331.598306 179,324.452995 L101.220545,279.547005 C88.844502,272.401694 81.2205451,259.196613 81.2205451,244.905989 L81.2205451,155.094011 C81.2205451,140.803387 88.844502,127.598306 101.220545,120.452995 L179,75.5470054 C191.376043,68.4016936 206.623957,68.4016936 219,75.5470054 Z" id="path-1"></path>
+        <filter x="-4.3%" y="-8.8%" width="108.7%" height="117.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="20" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="20" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.733909203   0 0 0 0 0.834680729   0 0 0 0 0.952247509  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="InProgress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StreamexMain" transform="translate(-1526.000000, -3477.000000)">
+            <g id="Pattern02" transform="translate(1480.000000, 3424.000000)">
+                <g id="Polygon" transform="translate(199.000000, 200.000000) rotate(-345.000000) translate(-199.000000, -200.000000) ">
+                    <use fill="#EDF5FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M219.5,48.5470054 L320.229128,106.702995 C332.605171,113.848306 340.229128,127.053387 340.229128,141.344011 L340.229128,257.655989 C340.229128,271.946613 332.605171,285.151694 320.229128,292.297005 L219.5,350.452995 C207.123957,357.598306 191.876043,357.598306 179.5,350.452995 L78.7708719,292.297005 C66.3948288,285.151694 58.7708719,271.946613 58.7708719,257.655989 L58.7708719,141.344011 C58.7708719,127.053387 66.3948288,113.848306 78.7708719,106.702995 L179.5,48.5470054 C191.876043,41.4016936 207.123957,41.4016936 219.5,48.5470054 Z" id="Polygon" stroke="#D6E2FF" transform="translate(199.500000, 199.500000) rotate(-345.000000) translate(-199.500000, -199.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

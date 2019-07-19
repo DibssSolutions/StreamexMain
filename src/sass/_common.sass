@@ -1,5 +1,6 @@
 body
 	+fr
+	min-width: 1280px
 	+f(16px,400,2.0625)
 	color: #627791
 	background-color: #F2F8FF
@@ -24,6 +25,7 @@ body
 	text-align: center
 
 .section
+	position: relative
 	padding: 178px 0
 	&_about
 		padding-bottom: 0
@@ -67,3 +69,25 @@ body
 		margin-bottom: 11px
 	.description
 		margin-bottom: 15px
+
+	.poligon-right
+		position: absolute
+		top: 50%
+		right: 0
+		transform: translateY(-50%)
+		width: 160px
+		img
+			display: block
+			max-width: 100%
+	.poligon-left
+		position: absolute
+		top: 40%
+		left: 0
+		width: 160px
+		img
+			display: block
+			max-width: 100%
+	.right-circle
+		position: absolute
+		top: 0
+		right: 0

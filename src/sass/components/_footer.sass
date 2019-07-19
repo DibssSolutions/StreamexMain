@@ -1,0 +1,107 @@
+.footer
+	position: relative
+	padding: 236px 0 80px
+	overflow: hidden
+	&:before
+		position: absolute
+		content: ''
+		top: 72px
+		left: 0
+		width: 100%
+		height: 100%
+		transform-origin: right
+		transform: skewY(-3.3deg)
+		background-image: linear-gradient(224deg, #EDF6FF 0%, #E2EFFF 100%)
+	&:after
+		position: absolute
+		content: ''
+		z-index: -1
+		top: 14px
+		right: 0
+		width: 100%
+		height: 1px
+		transform-origin: right
+		transform: skewY(-2deg)
+		background-image: linear-gradient(224deg, #DDECFD 0%, #C0D2FF 100%)
+	.get-started
+		margin-top: -220px
+		margin-bottom: 80px
+	&__cirlce-left
+		position: absolute
+		left: 0
+		top: 330px
+	&__cirlce-right
+		position: absolute
+		top: 0
+		right: 0
+	&__inner
+		position: relative
+		z-index: 2
+	&__row
+		margin: 0 -10px
+		display: flex
+		&:not(:last-child)
+			margin-bottom: 44px
+	&__col-left
+		padding: 0 10px
+		width: 34%
+		flex-direction: column
+		justify-content: space-between
+		display: flex
+	&__col-center
+		width: 40%
+		display: flex
+	&__col
+		width: 40%
+	&__right
+		padding: 0 10px
+		width: 26%
+	&__lang
+		align-items: center
+		display: inline-flex
+		span
+			margin-right: 10px
+			opacity: 0.5
+			font-weight: 500
+			font-size: 14px
+			color: #627791
+			letter-spacing: 0
+			line-height: 1.8
+	&__title
+		margin-bottom: 15px
+		font-size: 14px
+		color: #000000
+		font-weight: 700
+		letter-spacing: 0
+		line-height: 1.7
+	&__list,
+	&__soc
+		li
+			display: block
+		a
+			opacity: 0.8
+			font-weight: 500
+			font-size: 14px
+			color: #627791
+			letter-spacing: 0
+			line-height: 1.85
+			transition: opacity .3s
+			&:hover
+				opacity: 1
+	&__soc
+		.icon
+			margin: 9px 10px 0 0
+			font-size: 16px
+			vertical-align: top
+			display: inline-block
+.copy,
+.res,
+	opacity: .5
+.copy,
+.res,
+.footer__mail
+	font-size: 14px
+.footer__mail
+	transition: opacity .3s
+	+hover
+		opacity: .5

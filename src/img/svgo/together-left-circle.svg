@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="285px" height="500px" viewBox="0 0 285 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="33.9234172%" cy="23.5917208%" fx="33.9234172%" fy="23.5917208%" r="85.7744724%" id="radialGradient-1">
+            <stop stop-color="#E4F2FF" offset="0%"></stop>
+            <stop stop-color="#E1EFFF" offset="4.527184%"></stop>
+            <stop stop-color="#C7D7FB" offset="52.8%"></stop>
+            <stop stop-color="#BDCEFA" offset="81.45%"></stop>
+            <stop stop-color="#C4D3FB" offset="85.52%"></stop>
+            <stop stop-color="#D8E2FC" offset="91.45%"></stop>
+            <stop stop-color="#F7F9FE" offset="98.5%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="InProgress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StreamexMain" transform="translate(0.000000, -2277.000000)">
+            <g id="05-Features" transform="translate(-214.000000, 2278.000000)">
+                <g id="Group-2">
+                    <g id="Circles01" opacity="0.203380766" stroke="#6D82B1">
+                        <circle id="XMLID_5_" stroke-width="0.7039" opacity="0.4" cx="249.242424" cy="249.010101" r="248.737374"></circle>
+                        <circle id="Oval" stroke-width="0.688" opacity="0.5" cx="249.242424" cy="249.010101" r="230.808081"></circle>
+                        <circle id="Oval" stroke-width="0.6722" opacity="0.6" cx="249.242424" cy="249.010101" r="212.878788"></circle>
+                        <circle id="Oval" stroke-width="0.6564" opacity="0.7" cx="249.242424" cy="249.010101" r="194.949495"></circle>
+                        <circle id="Oval" stroke-width="0.6406" opacity="0.8" cx="249.242424" cy="249.010101" r="177.020202"></circle>
+                        <circle id="Oval" stroke-width="0.6247" opacity="0.9" cx="249.242424" cy="249.010101" r="158.838384"></circle>
+                        <circle id="Oval" stroke-width="0.608910713" transform="translate(249.104653, 248.922638) rotate(-87.058476) translate(-249.104653, -248.922638) " cx="249.104653" cy="248.922638" r="140.91157"></circle>
+                        <circle id="Oval" stroke-width="0.59309453" transform="translate(249.096443, 248.973979) rotate(-87.870226) translate(-249.096443, -248.973979) " cx="249.096443" cy="248.973979" r="122.978664"></circle>
+                        <circle id="Oval" stroke-width="0.577276438" transform="translate(249.087668, 249.034469) rotate(-88.464256) translate(-249.087668, -249.034469) " cx="249.087668" cy="249.034469" r="105.046217"></circle>
+                        <circle id="Oval" stroke-width="0.561487908" transform="translate(249.091662, 248.998153) rotate(-88.917506) translate(-249.091662, -248.998153) " cx="249.091662" cy="248.998153" r="87.119336"></circle>
+                        <circle id="Oval" stroke-width="0.545589179" transform="translate(249.091516, 248.995214) rotate(-89.274491) translate(-249.091516, -248.995214) " cx="249.091516" cy="248.995214" r="68.9380267"></circle>
+                        <circle id="Oval" stroke-width="0.529815418" transform="translate(249.103071, 248.902574) rotate(-89.562884) translate(-249.103071, -248.902574) " cx="249.103071" cy="248.902574" r="51.0115855"></circle>
+                        <circle id="Oval" stroke-width="0.514003112" transform="translate(249.096894, 248.946464) rotate(-89.800630) translate(-249.096894, -248.946464) " cx="249.096894" cy="248.946464" r="33.0810084"></circle>
+                        <path d="M234.090909,249.010101 C234.090909,240.676768 240.909091,233.858586 249.242424,233.858586 C257.575758,233.858586 264.393939,240.676768 264.393939,249.010101 C264.393939,257.343434 257.575758,264.161616 249.242424,264.161616 C240.909091,264.161616 234.090909,257.343434 234.090909,249.010101 Z" id="XMLID_4_" stroke-width="0.4982"></path>
+                    </g>
+                    <circle id="Oval" fill="url(#radialGradient-1)" fill-rule="nonzero" cx="249" cy="249" r="123"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

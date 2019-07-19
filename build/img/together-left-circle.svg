@@ -1,0 +1,36 @@
+<svg width="285" height="500" viewBox="0 0 285 500" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Group 2
+    </title>
+    <defs>
+        <radialGradient cx="33.923%" cy="23.592%" fx="33.923%" fy="23.592%" r="85.774%" id="a">
+            <stop stop-color="#E4F2FF" offset="0%"/>
+            <stop stop-color="#E1EFFF" offset="4.527%"/>
+            <stop stop-color="#C7D7FB" offset="52.8%"/>
+            <stop stop-color="#BDCEFA" offset="81.45%"/>
+            <stop stop-color="#C4D3FB" offset="85.52%"/>
+            <stop stop-color="#D8E2FC" offset="91.45%"/>
+            <stop stop-color="#F7F9FE" offset="98.5%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </radialGradient>
+    </defs>
+    <g transform="translate(-214 1)" fill="none" fill-rule="evenodd">
+        <g opacity=".203" stroke="#6D82B1">
+            <circle stroke-width=".704" opacity=".4" cx="249.242" cy="249.01" r="248.737"/>
+            <circle stroke-width=".688" opacity=".5" cx="249.242" cy="249.01" r="230.808"/>
+            <circle stroke-width=".672" opacity=".6" cx="249.242" cy="249.01" r="212.879"/>
+            <circle stroke-width=".656" opacity=".7" cx="249.242" cy="249.01" r="194.949"/>
+            <circle stroke-width=".641" opacity=".8" cx="249.242" cy="249.01" r="177.02"/>
+            <circle stroke-width=".625" opacity=".9" cx="249.242" cy="249.01" r="158.838"/>
+            <circle stroke-width=".609" transform="rotate(-87.058 249.105 248.923)" cx="249.105" cy="248.923" r="140.912"/>
+            <circle stroke-width=".593" transform="rotate(-87.87 249.096 248.974)" cx="249.096" cy="248.974" r="122.979"/>
+            <circle stroke-width=".577" transform="rotate(-88.464 249.088 249.034)" cx="249.088" cy="249.034" r="105.046"/>
+            <circle stroke-width=".561" transform="rotate(-88.918 249.092 248.998)" cx="249.092" cy="248.998" r="87.119"/>
+            <circle stroke-width=".546" transform="rotate(-89.274 249.092 248.995)" cx="249.092" cy="248.995" r="68.938"/>
+            <circle stroke-width=".53" transform="rotate(-89.563 249.103 248.903)" cx="249.103" cy="248.903" r="51.012"/>
+            <circle stroke-width=".514" transform="rotate(-89.801 249.097 248.946)" cx="249.097" cy="248.946" r="33.081"/>
+            <path d="M234.09 249.01c0-8.333 6.82-15.151 15.152-15.151 8.334 0 15.152 6.818 15.152 15.151s-6.818 15.152-15.152 15.152c-8.333 0-15.151-6.819-15.151-15.152z" stroke-width=".498"/>
+        </g>
+        <circle fill="url(#a)" fill-rule="nonzero" cx="249" cy="249" r="123"/>
+    </g>
+</svg>
