@@ -1,0 +1,9 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        eth
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <circle fill="#BEBEBE" cx="15" cy="15" r="15"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M14.126 18.986l.969-3.649 2.294-.838.571-2.145-.02-.053-2.258.825 1.627-6.128h-4.615l-2.128 7.997-1.777.65-.587 2.21 1.775-.648-1.254 4.712h12.283l.788-2.933h-7.668"/>
+    </g>
+</svg>

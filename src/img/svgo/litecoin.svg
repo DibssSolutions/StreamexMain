@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>eth</title>
+    <desc>Created with Sketch.</desc>
+    <g id="InProgress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StreamexMain" transform="translate(-1218.000000, -748.000000)">
+            <g id="02-Cards" transform="translate(270.000000, 723.000000)">
+                <g id="Litecoin" transform="translate(928.000000, 0.000000)">
+                    <g id="eth" transform="translate(20.000000, 25.000000)">
+                        <circle id="Oval" fill="#BEBEBE" cx="15" cy="15" r="15"></circle>
+                        <polyline id="Path" fill="#FFFFFF" fill-rule="nonzero" points="14.1257402 18.986284 15.0948943 15.3369789 17.3893958 14.4987009 17.9601208 12.3540181 17.9406344 12.3008157 15.6820242 13.1259517 17.3093656 6.99833837 12.6941692 6.99833837 10.5659819 14.9950151 8.78909366 15.644139 8.20196375 17.8551662 9.97749245 17.2065861 8.72320242 21.9193958 21.0060725 21.9193958 21.7935045 18.986284 14.1257402 18.986284"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

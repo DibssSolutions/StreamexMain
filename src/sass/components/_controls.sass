@@ -2,6 +2,7 @@
 	padding: 12px 40px
 	+fr
 	+f(16px,700,2.5)
+	text-align: center
 	color: #fff
 	border-radius: 5px
 	text-transform: uppercase
@@ -10,8 +11,13 @@
 	transition: background-color .3s, box-shadow .3s, border-color .3s, color .3s
 	+hover
 		background-color: darken(#4C68EF, 15%)
+	+md
+		padding: 12px 30px
+		font-size: 14px
+		line-height: 1.9
 	&_sm
-		padding: 11px 34px
+		padding: 11px 23px
+		min-width: 110px
 		line-height: 1.72
 		font-size: 14px
 		&.btn_bord
@@ -24,6 +30,12 @@
 		+hover
 			color: #fff
 			border-color: darken(#4C68EF, 15%)
+			background-color: darken(#4C68EF, 15%)
+	&_white
+		background-color: $white
+		color: #4C68EF
+		+hover
+			color: #fff
 			background-color: darken(#4C68EF, 15%)
 	&_shad
 		box-shadow: 0 20px 40px 0 rgba(76,104,239,0.35)

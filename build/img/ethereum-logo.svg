@@ -1,0 +1,16 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        eth
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <circle fill="#3F4953" cx="15" cy="15" r="15"/>
+        <g fill-rule="nonzero">
+            <path fill="#E6E6E6" d="M14.998 5.25v13.5l6-3.75z"/>
+            <path fill="#FFF" d="M14.998 5.25l-6 9.75 6 3.75z"/>
+            <path fill="#E6E6E6" d="M14.998 19.875v4.875l6-8.25z"/>
+            <path fill="#FFF" d="M14.998 24.75v-4.875l-6-3.375z"/>
+            <path fill="#141414" opacity=".1" d="M14.998 18.75l6-3.75-6-2.25z"/>
+            <path fill="#393939" opacity=".1" d="M8.998 15l6 3.75v-6z"/>
+        </g>
+    </g>
+</svg>

@@ -1,22 +1,34 @@
+html
+	&.is-open-menu
+		overflow-y: scroll
+
 body
 	+fr
-	min-width: 1280px
 	+f(16px,400,2.0625)
 	color: #627791
 	background-color: #F2F8FF
+	.is-open-menu &
+		position: fixed
+		height: 100vh
+		width: 100%
+		overflow: hidden
 
 .title-lg
 	color: #000
 	+f(84px,700,1.07)
+	+md
+		+f(54px,700,1.6)
 .title-md
 	color: #000
 	+f(50px,700,1.2)
+	+md
+		+f(30px,700,1.26)
 .title
 	color: #000
-	+f(36px,700,1.8)
+	+f(36px,700,1.5)
 
 .description
-	+f(18px,500,1.778)
+	+f(18px,500,2.2)
 
 .color-blue
 	color: #3852CE
@@ -60,7 +72,7 @@ body
 			padding-top: 0
 		p
 			&:not(:first-child)
-				margin-top: 23px
+				margin-top: 17px
 			&:not(:last-child)
 				margin-bottom: 29px
 		.description + .btn
@@ -73,8 +85,8 @@ body
 	.poligon-right
 		position: absolute
 		top: 50%
-		right: 0
-		transform: translateY(-50%)
+		right: -10px
+		margin-top: -120px
 		width: 160px
 		img
 			display: block
@@ -89,5 +101,14 @@ body
 			max-width: 100%
 	.right-circle
 		position: absolute
-		top: 0
-		right: 0
+		z-index: 2
+		top: 30px
+		right: -10px
+
+.md-show
+	display: none !important
+	+md
+		display: block !important
+.md-hide
+	+md
+		display: none

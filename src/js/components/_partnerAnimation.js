@@ -40,7 +40,7 @@ export default (() => {
 			  repeat: -1,
 			  yoyo: true,
 			  ease: Power0.easeNone
-	    }, 0);
+	    }, 0.5);
   const tlBtn = new TimelineMax({ paused: true, repeat: -1 })
     .to('.js-partner-btn', 0.7, {
       scale: 1,
