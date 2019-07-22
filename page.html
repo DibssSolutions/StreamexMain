@@ -107,12 +107,6 @@
         </div>
         <div class="hero__inner inner">
           <div class="hero__wrap" data-scroll-name="hero" data-scroll-trigger data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
-            <div class="hero__content">
-              <h1 class="title-lg color-blue" data-anim="from-bottom">Streamex</h1>
-              <h2 class="title-md" data-anim="from-bottom">Your crypto exchange and banking solution</h2>
-              <p data-anim="from-bottom">Store your crypto safely and earn passive income.</p>
-              <a href="#" class="btn btn_shad" data-anim="from-bottom">OPEN AN ACCOUNT</a>
-            </div>
             <div class="hero__img">
               <svg data-anim="fade" width="764px" height="712px" viewBox="0 0 764 712" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
@@ -831,8 +825,14 @@
                 </g>
               </svg>
             </div>
+            <div class="hero__content">
+              <h1 class="title-lg color-blue" data-anim="from-bottom">Streamex</h1>
+              <h2 class="title-md" data-anim="from-bottom">Your crypto exchange and banking solution</h2>
+              <p data-anim="from-bottom">Store your crypto safely and earn passive income.</p>
+              <a href="#" class="btn btn_shad" data-anim="from-bottom">OPEN AN ACCOUNT</a>
+            </div>
           </div>
-          <div class="hero__row" data-scroll-name="counter" data-scroll-trigger="250" data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
+          <div class="hero__row js-unit-slider" data-scroll-name="counter" data-scroll-trigger="50" data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
             <div class="hero__col" data-anim="from-bottom">
               <!-- begin  -->
               <div class="unit js-unit">
@@ -2639,7 +2639,7 @@
                 <img src="./img/logo.svg" alt="img">
               </a>
               <!-- end logo -->
-              <div class="footer__lang">
+              <div class="footer__lang sm-hide">
                 <span>Language</span>
                 <!-- begin lang -->
                 <div class="lang lang_top js-lang">
@@ -2677,31 +2677,54 @@
               </div>
             </div>
             <div class="footer__right">
-              <h5 class="footer__title">CONNECT</h5>
-              <ul class="footer__soc">
-                <li><a href="#">
-                    <svg class="icon icon-telegram">
-                      <use xlink:href="img/sprite.svg#icon-telegram"></use>
-                    </svg> Telegram </a></li>
-                <li><a href="#">
-                    <svg class="icon icon-twitter">
-                      <use xlink:href="img/sprite.svg#icon-twitter"></use>
-                    </svg> Twitter </a></li>
-                <li><a href="#">
-                    <svg class="icon icon-facebook">
-                      <use xlink:href="img/sprite.svg#icon-facebook"></use>
-                    </svg> Facebook </a></li>
-              </ul>
+              <div class="footer__col-mob">
+                <h5 class="footer__title">CONNECT</h5>
+                <ul class="footer__soc">
+                  <li><a href="#">
+                      <svg class="icon icon-telegram">
+                        <use xlink:href="img/sprite.svg#icon-telegram"></use>
+                      </svg> Telegram </a></li>
+                  <li><a href="#">
+                      <svg class="icon icon-twitter">
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                      </svg> Twitter </a></li>
+                  <li><a href="#">
+                      <svg class="icon icon-facebook">
+                        <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                      </svg> Facebook </a></li>
+                </ul>
+              </div>
+              <div class="footer__col-mob sm-show">
+                <div class="footer__lang">
+                  <span>Language:</span>
+                  <!-- begin lang -->
+                  <div class="lang lang_top js-lang">
+                    <div class="lang__current js-current-lang">Russian</div>
+                    <div class="lang__list">
+                      <li>
+                        <a href="#"> Russian </a>
+                      </li>
+                      <li>
+                        <a href="#"> Russian </a>
+                      </li>
+                    </div>
+                  </div>
+                  <!-- end lang -->
+                </div>
+                <div>
+                  <a href="mailto:mail@streamex.io" class="footer__mail">mail@streamex.io</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="footer__row">
+          <div class="footer__row footer__row_inline">
             <div class="footer__col-left">
               <div class="copy">© 2018 - 2019 Streamex.io.</div>
             </div>
             <div class="footer__col-center">
               <div class="res">All rights reserved</div>
             </div>
-            <div class="footer__right">
+            <div class="footer__right sm-hide">
               <a href="mailto:mail@streamex.io" class="footer__mail">mail@streamex.io</a>
             </div>
           </div>
