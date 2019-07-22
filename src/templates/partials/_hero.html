@@ -10,12 +10,6 @@
 	</div>
 	<div class="hero__inner inner">
 		<div class="hero__wrap" data-scroll-name="hero" data-scroll-trigger data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
-			<div class="hero__content">
-				<h1 class="title-lg color-blue" data-anim="from-bottom">Streamex</h1>
-				<h2 class="title-md" data-anim="from-bottom">Your crypto exchange and banking solution</h2>
-				<p data-anim="from-bottom">Store your crypto safely and earn passive income.</p>
-				<a href="#" class="btn btn_shad" data-anim="from-bottom">OPEN AN ACCOUNT</a>
-			</div>
 			<div class="hero__img">
 				<svg data-anim="fade" width="764px" height="712px" viewBox="0 0 764 712" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				    <defs>
@@ -735,8 +729,14 @@
 				    </g>
 				</svg>
 			</div>
+			<div class="hero__content">
+				<h1 class="title-lg color-blue" data-anim="from-bottom">Streamex</h1>
+				<h2 class="title-md" data-anim="from-bottom">Your crypto exchange and banking solution</h2>
+				<p data-anim="from-bottom">Store your crypto safely and earn passive income.</p>
+				<a href="#" class="btn btn_shad" data-anim="from-bottom">OPEN AN ACCOUNT</a>
+			</div>
 		</div>
-		<div class="hero__row" data-scroll-name="counter" data-scroll-trigger="250" data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
+		<div class="hero__row js-unit-slider" data-scroll-name="counter" data-scroll-trigger="50" data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
 			{% for item in [
 				{
 					logo: 'streamex-logo',

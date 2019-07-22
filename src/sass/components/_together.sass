@@ -1,6 +1,8 @@
 .together
 	position: relative
 	padding: 125px 0
+	+sm
+		padding: 80px 0
 	&:before
 		position: absolute
 		content: ''
@@ -22,6 +24,8 @@
 		transform-origin: right
 		transform: skewY(-6.8deg)
 		background-image: linear-gradient(224deg, #DDECFD 0%, #C0D2FF 100%)
+		+md
+			display: none
 	&__inner
 		position: relative
 		z-index: 2
@@ -31,11 +35,15 @@
 		margin: 0 -20px
 		flex-wrap: wrap
 		display: flex
+		+sm
+			flex-direction: column
 	&__col
 		position: relative
 		padding: 0 20px
 		+fs(33.3%)
 		&:not(:last-child)
+			+sm
+				margin-bottom: 32px
 			&:before
 				position: absolute
 				content: ''
@@ -44,6 +52,8 @@
 				height: 100%
 				width: 1px
 				background-color: rgba(#CDDDFD, .6)
+				+sm
+					display: none
 	&__icon
 		margin-bottom: 13px
 		+circle(128)
@@ -58,13 +68,19 @@
 		+f(30px,700,1.84)
 		color: #000
 		text-transform: uppercase
+		+sm
+			font-size: 24px
 
 .together-left-circle
 	position: absolute
 	top: -200px
 	left: 0
+	+md
+		display: none
 .together-right-circle
 	position: absolute
 	right: 0
 	bottom: -176px
 	z-index: 1
+	+md
+		display: none

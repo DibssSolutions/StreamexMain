@@ -6,7 +6,11 @@ body
 	+fr
 	+f(16px,400,2.0625)
 	color: #627791
+	min-width: 320px
 	background-color: #F2F8FF
+	+md
+		font-size: 14px
+		line-height: 1.85
 	.is-open-menu &
 		position: fixed
 		height: 100vh
@@ -26,9 +30,14 @@ body
 .title
 	color: #000
 	+f(36px,700,1.5)
+	+md
+		+f(24px,700,1.6)
 
 .description
 	+f(18px,500,2.2)
+	+md
+		font-size: 16px
+		line-height: 1.875	
 
 .color-blue
 	color: #3852CE
@@ -39,21 +48,40 @@ body
 .section
 	position: relative
 	padding: 178px 0
+	+md
+		padding: 80px 0
 	&_about
 		padding-bottom: 0
 	&__wrap
 		max-width: 488px
+		+md
+			padding-right: 20px
+			max-width: 100%
+		br
+			+md
+				display: none
 	&__row
 		margin: 0 -10px
 		display: flex
+		+md
+			flex-direction: column
+			justify-content: center
 		&:not(:first-child)
 			margin-top: 103px
+			+md
+				margin-top: 80px
 	&__img
 		padding: 0 10px
 		width: 50%
+		+md
+			margin-bottom: 30px
+			order: -1
+			width: auto
+			max-width: 100%
 		img,
 		svg
 			display: block
+			height: auto
 			max-width: 100%
 		&_shad
 			img
@@ -62,25 +90,38 @@ body
 		&_fixw
 			img
 				max-width: 960px
+				+md
+					max-width: 140%
 		&_center
 			justify-content: center
 			display: flex
 	&__content
 		padding: 38px 10px 0
 		width: 50%
+		+md
+			padding: 0 10px
+			width: 100%
 		&_pt0
 			padding-top: 0
 		p
 			&:not(:first-child)
 				margin-top: 17px
+				+md
+					margin-top: 7px
 			&:not(:last-child)
 				margin-bottom: 29px
+				+md
+					margin-bottom: 17px
 		.description + .btn
 			margin-top: 29px
 	.title
 		margin-bottom: 11px
+		+md
+			margin-bottom: 6px
 	.description
 		margin-bottom: 15px
+		+md
+			margin-bottom: 7px
 
 	.poligon-right
 		position: absolute
@@ -88,6 +129,8 @@ body
 		right: -10px
 		margin-top: -120px
 		width: 160px
+		+md
+			display: none
 		img
 			display: block
 			max-width: 100%
@@ -96,6 +139,8 @@ body
 		top: 40%
 		left: 0
 		width: 160px
+		+md
+			display: none
 		img
 			display: block
 			max-width: 100%
@@ -104,6 +149,8 @@ body
 		z-index: 2
 		top: 30px
 		right: -10px
+		+md
+			display: none
 
 .md-show
 	display: none !important
@@ -111,4 +158,12 @@ body
 		display: block !important
 .md-hide
 	+md
-		display: none
+		display: none !important
+
+.sm-show
+	display: none !important
+	+sm
+		display: block !important
+.sm-hide
+	+sm
+		display: none !important
