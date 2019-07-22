@@ -79,6 +79,10 @@
                       <img src="./img/flags/ru.png" alt="flag"> Russian </a>
                   </li>
                   <li>
+                    <a href="#" class="is-active">
+                      <img src="./img/flags/ru.png" alt="flag"> Russian </a>
+                  </li>
+                  <li>
                     <a href="#">
                       <img src="./img/flags/ru.png" alt="flag"> Russian </a>
                   </li>
@@ -835,7 +839,7 @@
           <div class="hero__row js-unit-slider" data-scroll-name="counter" data-scroll-trigger="50" data-duration-anim=".7" data-delay-anim="0.1" data-anim-group>
             <div class="hero__col" data-anim="from-bottom">
               <!-- begin  -->
-              <div class="unit js-unit">
+              <div class="unit js-count-parent" data-count-to-fixed="2">
                 <div class="unit__wrap">
                   <div class="unit__head">
                     <div class="unit__logo">
@@ -847,7 +851,7 @@
                     </div>
                   </div>
                   <div class="unit__cost">
-                    <div class="unit__numb" data-unit-cost="2427">$<span class="js-unit-cost"></span></div>
+                    <div class="unit__numb" data-count-value="2427">$<span class="js-count-container"></span></div>
                     <div class="unit__difference">+6.34%</div>
                   </div>
                   <div class="unit__foot">
@@ -861,7 +865,7 @@
             </div>
             <div class="hero__col" data-anim="from-bottom">
               <!-- begin  -->
-              <div class="unit js-unit">
+              <div class="unit js-count-parent" data-count-to-fixed="2">
                 <div class="unit__wrap">
                   <div class="unit__head">
                     <div class="unit__logo">
@@ -873,7 +877,7 @@
                     </div>
                   </div>
                   <div class="unit__cost">
-                    <div class="unit__numb" data-unit-cost="12427">$<span class="js-unit-cost"></span></div>
+                    <div class="unit__numb" data-count-value="12427">$<span class="js-count-container"></span></div>
                     <div class="unit__difference">+5.78%</div>
                   </div>
                   <div class="unit__foot">
@@ -887,7 +891,7 @@
             </div>
             <div class="hero__col" data-anim="from-bottom">
               <!-- begin  -->
-              <div class="unit js-unit">
+              <div class="unit js-count-parent" data-count-to-fixed="2">
                 <div class="unit__wrap">
                   <div class="unit__head">
                     <div class="unit__logo">
@@ -899,7 +903,7 @@
                     </div>
                   </div>
                   <div class="unit__cost">
-                    <div class="unit__numb" data-unit-cost="312.10">$<span class="js-unit-cost"></span></div>
+                    <div class="unit__numb" data-count-value="312.10">$<span class="js-count-container"></span></div>
                     <div class="unit__difference">+2.07%</div>
                   </div>
                   <div class="unit__foot">
@@ -913,7 +917,7 @@
             </div>
             <div class="hero__col" data-anim="from-bottom">
               <!-- begin  -->
-              <div class="unit js-unit">
+              <div class="unit js-count-parent" data-count-to-fixed="2">
                 <div class="unit__wrap">
                   <div class="unit__head">
                     <div class="unit__logo">
@@ -925,7 +929,7 @@
                     </div>
                   </div>
                   <div class="unit__cost">
-                    <div class="unit__numb" data-unit-cost="0.39633">$<span class="js-unit-cost"></span></div>
+                    <div class="unit__numb" data-count-value="0.39633">$<span class="js-count-container"></span></div>
                     <div class="unit__difference">+3.17%</div>
                   </div>
                   <div class="unit__foot">
@@ -939,7 +943,7 @@
             </div>
             <div class="hero__col" data-anim="from-bottom">
               <!-- begin  -->
-              <div class="unit js-unit">
+              <div class="unit js-count-parent" data-count-to-fixed="2">
                 <div class="unit__wrap">
                   <div class="unit__head">
                     <div class="unit__logo">
@@ -951,7 +955,7 @@
                     </div>
                   </div>
                   <div class="unit__cost">
-                    <div class="unit__numb" data-unit-cost="122.71">$<span class="js-unit-cost"></span></div>
+                    <div class="unit__numb" data-count-value="122.71">$<span class="js-count-container"></span></div>
                     <div class="unit__difference">+4.55%</div>
                   </div>
                   <div class="unit__foot">
@@ -1560,28 +1564,28 @@
             <img src="./img/together-right-circle.svg" alt="together-right-circle">
           </div>
         </div>
-        <div class="together__inner inner" data-scroll-trigger="150" data-duration-anim="1.2" data-delay-anim="0.00011" data-anim-group="0.5">
+        <div class="together__inner inner" data-scroll-trigger="150" data-duration-anim="1.2" data-delay-anim="0.00011" data-anim-group="0.5" data-scroll-name="counter">
           <h3 class="together__title title" data-anim="from-bottom"><span class="color-blue">Exchange better.</span> Faster. Together.</h3>
           <div class="together__row" data-anim="from-bottom">
-            <div class="together__col col col-4">
+            <div class="together__col col col-4 js-count-parent" data-count-duration="5">
               <div class="together__icon">
                 <img src="./img/pie-chart.svg" alt="img">
               </div>
-              <div class="together__numb">20K+</div>
+              <div class="together__numb" data-count-value="20"><span class="js-count-container"></span>K+</div>
               <p>Daily trading Volume </p>
             </div>
-            <div class="together__col col col-4">
+            <div class="together__col col col-4 js-count-parent" data-count-duration="5">
               <div class="together__icon">
                 <img src="./img/piggy-bank.svg" alt="img">
               </div>
-              <div class="together__numb">290K+</div>
+              <div class="together__numb" data-count-value="290"><span class="js-count-container"></span>K+</div>
               <p>Tokens Stored</p>
             </div>
-            <div class="together__col col col-4">
+            <div class="together__col col col-4 js-count-parent" data-count-duration="5">
               <div class="together__icon">
                 <img src="./img/smile.svg" alt="img">
               </div>
-              <div class="together__numb">100K+</div>
+              <div class="together__numb" data-count-value="100"><span class="js-count-container"></span>K+</div>
               <p>Happy users</p>
             </div>
           </div>
@@ -1862,9 +1866,9 @@
             </div>
             <div class="section__content">
               <div class="section__wrap" data-anim="from-bottom">
-                <h2 class="title"><span class="color-blue">Competitive</span> trading fees</h2>
-                <div class="description">We pride ourselves in running an affordable <br>cryptocurrency exchange.</div>
-                <p>By using our platform, you can save up to 70% on trading <br>fees alone when compared to the global average.</p>
+                <h2 class="title"><span class="color-blue">Bank</span> industry-grade <br>secure environment</h2>
+                <div class="description">Protection of your privacy and funds are one of the highest Streamex priorities.</div>
+                <p>With the most advanced encryption technologies we ensure that your account and assets are safe and sound.</p>
                 <a href="#" class="btn btn_shad">LEARN MORE</a>
               </div>
             </div>
@@ -1872,9 +1876,9 @@
           <div class="section__row" data-scroll-name="partner" data-scroll-trigger="150" data-duration-anim="0.9" data-delay-anim="0.00011" data-anim-group="0.5">
             <div class="section__content">
               <div class="section__wrap" data-anim="from-bottom">
-                <h2 class="title"><span class="color-blue">Partner Program</span> or Affiliate program like no other</h2>
-                <div class="description">Our affiliate program is suitable for both casual crypto enthusiasts as well as experienced marketeers.</div>
-                <p>Earn passive income just by referring your friends to join <br>Streamex or go guns blazing on a full-fledged webmaster <br>advertising campaign to get huge commissions.</p>
+                <h2 class="title"><span class="color-blue">Lifetime</span> revenue sharing Affiliate Program</h2>
+                <div class="description">Our affiliate program is suitable for both casual crypto enthusiasts  as well as experienced marketeers.</div>
+                <p>Earn passive income just by referring your friends to join Streamex or go guns blazing on a full-fledged webmaster <br>advertising campaign to get huge commissions.</p>
                 <a href="#" class="btn btn_shad">LEARN MORE</a>
               </div>
             </div>
@@ -2646,7 +2650,7 @@
                   <div class="lang__current js-current-lang">Russian</div>
                   <div class="lang__list">
                     <li>
-                      <a href="#"> Russian </a>
+                      <a href="#" class="is-active"> Russian </a>
                     </li>
                     <li>
                       <a href="#"> Russian </a>
@@ -2702,7 +2706,7 @@
                     <div class="lang__current js-current-lang">Russian</div>
                     <div class="lang__list">
                       <li>
-                        <a href="#"> Russian </a>
+                        <a href="#" class="is-active"> Russian </a>
                       </li>
                       <li>
                         <a href="#"> Russian </a>
