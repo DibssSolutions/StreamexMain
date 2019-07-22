@@ -786,7 +786,7 @@
 			] %}
 			<div class="hero__col" data-anim="from-bottom">
 				<!-- begin  -->
-				<div class="unit js-unit">
+				<div class="unit js-count-parent" data-count-to-fixed="2">
 					<div class="unit__wrap">
 						<div class="unit__head">
 							<div class="unit__logo">
@@ -798,7 +798,7 @@
 							</div>
 						</div>
 						<div class="unit__cost">
-							<div class="unit__numb" data-unit-cost="{{ item.numb }}">$<span class="js-unit-cost"></span></div>
+							<div class="unit__numb" data-count-value="{{ item.numb }}">$<span class="js-count-container"></span></div>
 							<div class="unit__difference">+{{ item.difference }}%</div>
 						</div>
 						<div class="unit__foot">

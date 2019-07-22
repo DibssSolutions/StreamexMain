@@ -127,9 +127,6 @@
 	font-size: 14px
 	font-weight: 500
 	user-select: none
-	.header &
-		+md
-			color: #fff
 	&.is-open
 		.lang__list
 			+fadein
@@ -144,15 +141,25 @@
 		.lang__list
 			top: auto
 			bottom: 100%
-			max-height: 100px
-			overflow-y: auto
 			left: 0
+			margin-top: 0
+			margin-bottom: 16px
+			&:before
+				position: absolute
+				content: ''
+				top: auto
+				bottom: -6px
+				left: 50%
+				+arr(12,6,#fff,b)
 	&__current
 		position: relative
 		display: flex
 		width: 100%
 		cursor: pointer
 		padding-right: 13px
+		.header &
+			+md
+				color: #fff
 		&:before
 			position: absolute
 			content: ''
@@ -166,23 +173,44 @@
 					+arr(8,4,#fff,b)
 	&__list
 		position: absolute
-		right: 0
+		left: 50%
 		top: 100%
-		padding-top: 5px
-		min-width: 90px
-		max-width: 120px
+		margin: 16px 0 0 -68px
+		width: 136px
+		background: #FFFFFF
+		box-shadow: 0 20px 40px 0 rgba(107,154,212,0.10)
+		border-radius: 8px
 		+fadeout(.3s)
 		+prevent-text
+		+lg
+			left: 40%
+		&:before
+			position: absolute
+			content: ''
+			top: -6px
+			left: 50%
+			margin-left: -6px
+			+arr(12,6,#fff,t)
 		li
+			position: relative
+			overflow: hidden
 			display: block
+			&:first-child
+				border-radius: 8px 8px 0 0
+			&:last-child
+				border-radius: 0 0 8px 8px 
 			&:not(:first-child)
-				margin-top: 5px
+				border-top: 1px solid #E4EEF9
 		a
 			display: flex
+			padding: 8px 20px
 			color: currentColor
 			transition: opacity .3s
 			+hover
 				opacity: .7
+			&.is-active
+				background-color: #F2F8FF
+				color: #000
 			img
 				margin-top: 5px
 

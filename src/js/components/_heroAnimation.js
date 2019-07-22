@@ -224,24 +224,24 @@ export default (() => {
 
     }, 800 );
 
-    setTimeout(() => {
-      new TimelineMax({ repeat: -1 })
-        .set('.js-man', { transformOrigin:'50% 50%' })
-        .to('.js-man', 2, {
-          yPercent: 275,
-          rotation: 720,
-          ease: Power0.easeNone
-        })
-        .to('.js-man', 0, {
-          yPercent: -500,
-          ease: Power0.easeNone
-        }, 2)
-        .to('.js-man', 3, {
-          yPercent: 0,
-          ease: Power0.easeNone
-        }, 2.1)
-        .repeatDelay(2);
-    }, 2000);
+    // setTimeout(() => {
+    //   new TimelineMax({ repeat: -1 })
+    //     .set('.js-man', { transformOrigin:'50% 50%' })
+    //     .to('.js-man', 2, {
+    //       yPercent: 275,
+    //       rotation: 720,
+    //       ease: Power0.easeNone
+    //     })
+    //     .to('.js-man', 0, {
+    //       yPercent: -500,
+    //       ease: Power0.easeNone
+    //     }, 2)
+    //     .to('.js-man', 3, {
+    //       yPercent: 0,
+    //       ease: Power0.easeNone
+    //     }, 2.1)
+    //     .repeatDelay(2);
+    // }, 2000);
 
   };
   return { play };

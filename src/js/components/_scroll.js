@@ -110,7 +110,7 @@ setTimeout(() => {
 
           case 'counter':
             setTimeout(() => {
-              COUNTER_ANIMATION.play();
+              COUNTER_ANIMATION.play(item);
             }, 400);
             break;
 
