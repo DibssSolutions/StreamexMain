@@ -7,6 +7,7 @@ const initLinearChart = (trigger) => {
 	  let data;
 	  let chartLinear;
 	  const ctx = $(el);
+	  // ctx[0].height = 107;
 	  const dataPath = $(el).data('json');
 	  LOAD_DATA({
 	    path: dataPath,

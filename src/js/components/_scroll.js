@@ -104,9 +104,9 @@ setTimeout(() => {
       if (!item.hasClass(ANIMATE)) {
         switch(name) {
           
-          //     case 'hero':
-          //       HERO_ANIMATION.play();
-          //       break;
+          case 'hero':
+            HERO_ANIMATION.play();
+            break;
 
           case 'counter':
             setTimeout(() => {
@@ -114,17 +114,17 @@ setTimeout(() => {
             }, 400);
             break;
 
-            //     case 'about':
-            //       ABOUT_ANIMATION.play();
-            //       break;
+          case 'about':
+            ABOUT_ANIMATION.play();
+            break;
 
-            //     case 'competitive':
-            //       COMPETITIVE_ANIMATION.play();
-            //       break;
+          case 'competitive':
+            COMPETITIVE_ANIMATION.play();
+            break;
 
-            //     case 'partner':
-            //       PARTNER_ANIMATION.play();
-            //       break;
+          case 'partner':
+            PARTNER_ANIMATION.play();
+            break;
 
           default:
             break;
