@@ -34,7 +34,7 @@ const initLinearChart = (trigger) => {
 	          responsive: true,
 	          scales: {
 	            xAxes: [{
-	              stacked: true,
+	              stacked: false,
 	              gridLines: {
 	                display: false
 	              },
